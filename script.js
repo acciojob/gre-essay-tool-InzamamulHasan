@@ -9,7 +9,7 @@ function myfun() {
 	/*if(inps[inps.length-1]=" "){
 		size1=size1-1;
 	}*/
-	if(size1==0){
+	if(inps.length==0){
 		document.getElementById("wordCount").innerHTML=0;
 	}else{
 		document.getElementById("wordCount").innerHTML=size1;

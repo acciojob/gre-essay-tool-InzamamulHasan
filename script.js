@@ -9,6 +9,11 @@ function myfun() {
 	/*if(inps[inps.length-1]=" "){
 		size1=size1-1;
 	}*/
-	document.getElementById("wordCount").innerHTML=size1;
+	if(size1==0){
+		document.getElementById("wordCount").innerHTML=0;
+	}else{
+		document.getElementById("wordCount").innerHTML=size1;
+	}
+	
 	
 } 
